@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>예제 전자책(여러 파일)</title>
+  <link rel="stylesheet" href="css/book.css">
+  <script src="js/book.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <nav class="toc">
+      <h2>목차</h2>
+      <ol>
+        <li><a href="chapters/ch01.html">1장. GitHub란?</a></li>
+        <li><a href="chapters/ch02.html">2장. 웹사이트 게시</a></li>
+        <li><a href="chapters/ch03.html">3장. 수정과 관리</a></li>
+      </ol>
+    </nav>
+    <main class="content">
+      <div class="bar"><strong>예제 전자책</strong><button id="theme" type="button">다크 모드</button></div>
+      <img class="cover" src="images/cover.svg" alt="예제 전자책 표지">
+      <p>표지와 목차가 있는 첫 페이지(index.html)입니다. 각 장은 chapters 폴더의 별도 파일입니다.</p>
+      <p><a href="chapters/ch01.html">1장부터 읽기 →</a></p>
+    </main>
+  </div>
+</body>
+</html>
