@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+<rect width="300" height="400" rx="12" fill="#0d1b2a"/>
+<rect x="24" y="24" width="252" height="352" rx="8" fill="none" stroke="#7cc4ff" stroke-width="2"/>
+<text x="150" y="170" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff" font-family="sans-serif">GitHub</text>
+<text x="150" y="210" text-anchor="middle" font-size="22" fill="#7cc4ff" font-family="sans-serif">EXAMPLE BOOK</text>
+<text x="150" y="340" text-anchor="middle" font-size="14" fill="#d0dcec" font-family="sans-serif">sample · 2026</text>
+</svg>
